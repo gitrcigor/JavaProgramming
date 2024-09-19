@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/*
+* Estrutura de decisão compreende conceitos relacionados a
+* If, else, if-else-if e switch-case
+*
+* Exercício 01
+*
+*
+* */
+
 
 public class Aluno {
 
