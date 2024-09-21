@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  * */
 
-
 public class numPositivoOuNegativo {
 
     public static void main(String[] args) {
@@ -28,7 +27,6 @@ public class numPositivoOuNegativo {
             System.out.print("\nO número é invalido!");
         else if (numeroInteiro == 0)
             System.out.print("\nO número só pode ser positivo ou negativo, não igual a zero!");
-
 
     }
 

@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" filepath="$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" filepath="$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" filepath="$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" filepath="$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" />
     </modules>
   </component>
 </project>
