@@ -7,9 +7,6 @@
  *
  * */
 
-
-import java.util.spi.AbstractResourceBundleProvider;
-
 public class multiplosDeTres {
 
     public static void main(String[] args) {
