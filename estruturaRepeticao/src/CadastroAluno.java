@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/*
+ * Estrutura de repetição compreende conceitos relacionados a
+ * while, Do-While, For e Foreach
+ *
+ * Exercício 01
+ *
+ *
+ * */
+
 
 public class CadastroAluno {
 
@@ -30,13 +39,13 @@ public class CadastroAluno {
             telefone = teclado.next();
 
 
-
             cont++;
 
             System.out.println("Matrícula do próximo aluno: ");
             matricula = teclado.nextInt();
         }
 
+        teclado.close();
 
     }
 }
