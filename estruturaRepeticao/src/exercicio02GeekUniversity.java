@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
 Data: 04/10/2024
 Autor: Igor Rayfran Calixto
