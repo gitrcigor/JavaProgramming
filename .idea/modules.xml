@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" filepath="$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" filepath="$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estruturaDecisao/estruturaDecisao.iml" filepath="$PROJECT_DIR$/estruturaDecisao/estruturaDecisao.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" filepath="$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tiposDados/tiposDados.iml" filepath="$PROJECT_DIR$/tiposDados/tiposDados.iml" />
     </modules>
   </component>
 </project>
