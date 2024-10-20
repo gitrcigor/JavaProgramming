@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/estruturaDecisao/estruturaDecisao.iml" filepath="$PROJECT_DIR$/estruturaDecisao/estruturaDecisao.iml" />
       <module fileurl="file://$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" filepath="$PROJECT_DIR$/estruturaRepeticao/estruturaRepeticao.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiposDados/tiposDados.iml" filepath="$PROJECT_DIR$/tiposDados/tiposDados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vetoresEMatrizes/vetoresEMatrizes.iml" filepath="$PROJECT_DIR$/vetoresEMatrizes/vetoresEMatrizes.iml" />
     </modules>
   </component>
 </project>
