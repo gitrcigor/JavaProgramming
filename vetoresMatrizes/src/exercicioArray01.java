@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
-public class manipulandoArray01 {
+
+//Programa para criar array com numeros lidos pelo teclado
+
+
+public class exercicioArray01 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
