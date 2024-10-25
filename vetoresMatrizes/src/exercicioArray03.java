@@ -36,6 +36,8 @@ public class exercicioArray03 {
                 vet1[y] = vet1Inteiros[i];
 
                 if (vet1[y] == vet1Inteiros[i]) {
+
+
                     System.out.print("\nPrimeiro array: " + vet1Inteiros[i]);
                     System.out.print("\nSegundo array: " + vet1[y]);
                 }
