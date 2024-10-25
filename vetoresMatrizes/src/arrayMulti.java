@@ -12,6 +12,9 @@
 // numeros [2] [1] = 6;
 // numeros [2] [2] = 32;
 
+// Cheatsheet programação
+// https://books.goalkicker.com/
+
 public class arrayMulti {
     public static void main(String[] args) {
 
