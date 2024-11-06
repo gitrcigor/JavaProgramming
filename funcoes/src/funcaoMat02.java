@@ -33,9 +33,7 @@ public class funcaoMat02 {
 
     static double quociente2valores(double primeiroValor, double segundoValor) {
 
-        if (segundoValor != 0) {
             return primeiroValor / segundoValor;
-        }
 
     }
 
@@ -48,16 +46,16 @@ public class funcaoMat02 {
         Scanner keyboard = new Scanner(System.in);
 
 
-        System.out.println("Informe o primeiro valor para soma: ");
+        System.out.print("\nInforme o primeiro valor para soma: ");
         valor1 = keyboard.nextDouble();
-        System.out.println("Informe o segundo valor para soma: ");
+        System.out.print("\nInforme o segundo valor para soma: ");
         valor2 = keyboard.nextDouble();
 
 
-        System.out.println("Soma igual a : " + soma2valores(valor1, valor2));
-        System.out.println("Subtração igual a : " + subtrair2valores(valor1, valor2));
-        System.out.println("Produto igual a : " + produto2valores(valor1, valor2));
-        System.out.println("Quociente igual a : " + quociente2valores(valor1, valor2));
+        System.out.print("\nSoma igual a : " + soma2valores(valor1, valor2));
+        System.out.print("\nSubtração igual a : " + subtrair2valores(valor1, valor2));
+        System.out.print("\nProduto igual a : " + produto2valores(valor1, valor2));
+        System.out.print("\nQuociente igual a : " + quociente2valores(valor1, valor2));
 
 
         keyboard.close();
