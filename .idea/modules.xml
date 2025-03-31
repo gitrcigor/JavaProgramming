@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" filepath="$PROJECT_DIR$/.idea/JavaOrientadoAObjetos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" filepath="$PROJECT_DIR$/estruturaDeDecisao/estruturaDeDecisao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" filepath="$PROJECT_DIR$/estruturaSequencial/estruturaSequencial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ObjectOriented.iml" filepath="$PROJECT_DIR$/.idea/ObjectOriented.iml" />
     </modules>
   </component>
 </project>
