@@ -12,19 +12,19 @@ public NomeDaClasse(){
 
  */
 
-public class Pessoa {
+public class PessoaPrograma22 {
 
     String nome;
     String email;
     int ano_nascimento;
 
     //Construtor vazio
-    public Pessoa (){
+    public PessoaPrograma22(){
 
     }
 
     //Construtor com parâmetros
-    public Pessoa (String nome, String email, int ano_nascimento){
+    public PessoaPrograma22(String nome, String email, int ano_nascimento){
         //this == este objeto
         this.nome = nome;
         this.email = email;

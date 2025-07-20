@@ -14,22 +14,22 @@ public class Programa24 {
 
         // ================ Construtor sem parâmetro ===================
 
-        Pessoa pessoa1 = new Pessoa(); // Construtor
+        PessoaPrograma22 pessoaPrograma221 = new PessoaPrograma22(); // Construtor
 
-        pessoa1.nome = "Testador QA";
-        pessoa1.email = "tester@gmail.com";
-        pessoa1.ano_nascimento = 1995;
+        pessoaPrograma221.nome = "Testador QA";
+        pessoaPrograma221.email = "tester@gmail.com";
+        pessoaPrograma221.ano_nascimento = 1995;
 
-        System.out.println("\nNome: " + pessoa1.nome);
-        System.out.println("Email: " + pessoa1.email);
-        System.out.println("Ano Nascimento: " + pessoa1.ano_nascimento);
+        System.out.println("\nNome: " + pessoaPrograma221.nome);
+        System.out.println("Email: " + pessoaPrograma221.email);
+        System.out.println("Ano Nascimento: " + pessoaPrograma221.ano_nascimento);
 
         // ================ Construtor com parâmetro ===================
         // ================ Imprimindo usando método ===================
 
-        Pessoa pessoa2 = new Pessoa("Igor Tester", "qa@live.com", 1995);
+        PessoaPrograma22 pessoaPrograma222 = new PessoaPrograma22("Igor Tester", "qa@live.com", 1995);
 
-        pessoa2.imprime_info();
+        pessoaPrograma222.imprime_info();
 
     }
 
