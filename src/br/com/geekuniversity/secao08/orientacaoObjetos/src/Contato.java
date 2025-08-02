@@ -1,4 +1,4 @@
-package src;
+package src.br.com.geekuniversity.secao08.orientacaoObjetos.src;
 
 public class Contato {
 
@@ -21,7 +21,7 @@ public class Contato {
     public void setTelefone(String telefone) {this.telefone = telefone;}
 
     //Métodos
-    void imprime_informacoes(){
+    public void imprime_informacoes(){
         System.out.print("\n");
         System.out.println("\nNome: " + this.nome);
         System.out.println("E-mail: " + this.email);
