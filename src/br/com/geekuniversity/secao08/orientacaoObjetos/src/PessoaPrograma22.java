@@ -14,9 +14,9 @@ public NomeDaClasse(){
 
 public class PessoaPrograma22 {
 
-    String nome;
-    String email;
-    int ano_nascimento;
+    public String nome;
+    public String email;
+    public int ano_nascimento;
 
     //Construtor vazio
     public PessoaPrograma22(){
