@@ -11,6 +11,9 @@ operações:
  */
 
 
+import src.br.com.geekuniversity.secao08.orientacaoObjetos.src.AgendaExe02;
+import src.br.com.geekuniversity.secao08.orientacaoObjetos.src.Contato;
+
 public class Exercicio02 {
     public static void main(String[] args) {
 

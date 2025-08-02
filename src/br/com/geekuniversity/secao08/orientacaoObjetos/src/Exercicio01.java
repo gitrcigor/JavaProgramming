@@ -1,4 +1,4 @@
-package src;
+package src.br.com.geekuniversity.secao08.orientacaoObjetos.src;
 
 /*
 05/04/2025 - Sábado - Noite

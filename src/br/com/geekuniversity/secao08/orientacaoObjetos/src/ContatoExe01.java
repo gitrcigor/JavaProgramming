@@ -1,4 +1,4 @@
-package src;
+package src.br.com.geekuniversity.secao08.orientacaoObjetos.src;
 
 //Classe
 public class ContatoExe01 {
@@ -42,7 +42,7 @@ public class ContatoExe01 {
 //    }
 
     //Método da classe
-    void imprimirDados(){
+    public void imprimirDados(){
         System.out.print("\nNome: " + this.nome);
         System.out.print("Email: " + this.email);
         System.out.print("Telefone: " + this.telefone);
