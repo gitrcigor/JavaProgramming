@@ -31,9 +31,9 @@ public class NomeDaClasse{
 public class Produto {
 
     //Atributos
-    String nome;
-    float preco;
-    float desconto;
+    public String nome;
+    public float preco;
+    public float desconto;
 
     //Metodo para aumentar preço em R$10
     void aumentar_preco(float valor){

@@ -14,7 +14,7 @@ public class Programa24 {
 
         // ================ Construtor sem parâmetro ===================
 
-        PessoaPrograma22 pessoaPrograma221 = new PessoaPrograma22(); // Construtor
+        src.PessoaPrograma22 pessoaPrograma221 = new src.PessoaPrograma22(); // Construtor
 
         pessoaPrograma221.nome = "Testador QA";
         pessoaPrograma221.email = "tester@gmail.com";
@@ -27,7 +27,7 @@ public class Programa24 {
         // ================ Construtor com parâmetro ===================
         // ================ Imprimindo usando método ===================
 
-        PessoaPrograma22 pessoaPrograma222 = new PessoaPrograma22("Igor Tester", "qa@live.com", 1995);
+        src.PessoaPrograma22 pessoaPrograma222 = new src.PessoaPrograma22("Igor Tester", "qa@live.com", 1995);
 
         pessoaPrograma222.imprime_info();
 

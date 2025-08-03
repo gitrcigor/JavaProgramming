@@ -1,9 +1,11 @@
-package src;
+package src.br.com.geekuniversity.secao08.orientacaoObjetos.src;
 
 /*
 - Objetos são produtos/instâncias da classe;
 
  */
+
+import src.Produto;
 
 public class Programa22 {
 
@@ -41,7 +43,7 @@ public class Programa22 {
 
         // =================================================================
 
-        PessoaPrograma22 pessoaPrograma221 = new PessoaPrograma22(); // Construtor
+        src.PessoaPrograma22 pessoaPrograma221 = new src.PessoaPrograma22(); // Construtor
 
         pessoaPrograma221.nome = "Igor";
         pessoaPrograma221.email = "igorrc23@live.com";

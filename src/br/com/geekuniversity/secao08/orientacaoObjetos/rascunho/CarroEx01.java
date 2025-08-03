@@ -1,4 +1,4 @@
-package rascunho;
+package src.br.com.geekuniversity.secao08.orientacaoObjetos.rascunho;
 
 //Classe
 public class CarroEx01 {
