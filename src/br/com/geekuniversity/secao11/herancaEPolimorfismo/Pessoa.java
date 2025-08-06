@@ -49,4 +49,27 @@ public class Pessoa {
         this.email = email;
     }
 
+
+
+    //Polimorfismo - Aula 62    || Overriding
+    public String toString(){
+        return "Nome: " + this.nome + " | Ano Nascimento: " + this.anoNascimento;
+    }
+
+
+    //Aula 63 Sobrecarga de método || Overloading
+    public Pessoa(){}
+
+    public void mensagem(){
+        System.out.println("\nTeste método 1 sem passagem de parâmetro");
+    }
+
+    public void mensagem(String msg){
+        System.out.println(msg);
+    }
+
+    public void mensagem(String msg, int num){
+        System.out.println(msg + num);
+    }
+
 }

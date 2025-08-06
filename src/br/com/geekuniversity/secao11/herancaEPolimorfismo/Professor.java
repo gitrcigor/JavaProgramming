@@ -20,11 +20,16 @@ public class Professor extends Pessoa {
     }
 
     public String getMatricula() {
-        return matricula;
+        return this.matricula;
     }
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+
+    //Polimorfismo - Aula 62   || Overriding
+    public String toString(){
+        return super.toString() + " | Matricula: " + this.matricula;
     }
 
 }
