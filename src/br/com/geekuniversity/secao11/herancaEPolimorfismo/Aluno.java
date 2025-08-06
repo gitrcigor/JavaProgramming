@@ -30,4 +30,10 @@ public class Aluno extends Pessoa {
         this.ra = ra;
     }
 
+
+    //Polimorfismo - Aula 62     || Overriding
+    public String toString (){
+        return super.toString() + " | R.A.: " + this.ra;
+    }
+
 }
