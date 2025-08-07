@@ -10,14 +10,12 @@ public class Quadrado {
     //Construtor
     public Quadrado (int lado){
         this.lado = lado;
+    }
+
+    public Quadrado (int lado, int area, int perimetro){
         this.area = area;
         this.perimetro = perimetro;
     }
-
-//    public Quadrado (){
-//        this.area = area;
-//        this.perimetro = perimetro;
-//    }
 
     //Encapsulamento (Getter e Setter)
     public int getLado() {
