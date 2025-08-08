@@ -36,11 +36,11 @@ public class Quadrado {
 
     //Métodos
     public int calculaArea(int lado){
-        return this.area = lado * lado;
+        return this.area = this.lado * this.lado;
     }
 
     public int calculaPerimetro(int lado){
-        return this.perimetro = (lado * 4);
+        return this.perimetro = (this.lado * 4);
     }
 
     public void imprimir(){
