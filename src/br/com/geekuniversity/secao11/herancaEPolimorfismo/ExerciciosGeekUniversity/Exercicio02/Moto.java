@@ -46,20 +46,26 @@ public class Moto {
         this.marcha = marcha;
     }
 
-    public void trocarMarcha(int marcha){
-        if (marcha > 0){
-            this.marcha = this.marcha + 1;
-        }
-        else {
-            this.marcha = this.marcha - 1;
-        }
+    void diminuirMarchaDaMoto(int marcha){
+        this.marcha += -1;
+        System.out.print("\nMarcha atual: " + this.getMarcha());
     }
 
-    public void imprimir(String marca, String modelo, String cor, int marcha){
-        System.out.print("\nMarca: " + marca);
-        System.out.print("\nModelo: " + modelo);
-        System.out.print("\nCor: " + cor);
-        System.out.print("\nMarcha: " + marcha);
+    void aumentarMarchaDaMoto(int marcha){
+        if (this.getMarcha() == 6){
+            System.out.print("\nJá está na última marcha!");
+        }else {
+            this.marcha += +1;
+            System.out.print("\nMarcha atual: " + this.getMarcha());
+        }
+
+    }
+
+    public void imprimir(){
+        System.out.print("\nMarca: " + this.marca);
+        System.out.print("\nModelo: " + this.modelo);
+        System.out.print("\nCor: " + this.cor);
+        System.out.print("\nMarcha atual: " + this.marcha);
     }
 
 
