@@ -10,9 +10,20 @@ public class Cliente extends Usuario{
     }
 
     @Override
-    public void imprimirDados(String nome, String email, int idade){
-
+    public void imprimirDados(){
+        System.out.print("\nCliente Nome: " + this.getNome());
+        System.out.print("\nCliente Email: " + this.getEmail());
+        System.out.print("\nCliente Idade: " + this.getIdade());
+        System.out.print("\nCliente Cargo: " + this.getCodigoCliente());
+        System.out.print("\n");
     }
 
+    public String getCodigoCliente() {
+        return codigoCliente;
+    }
 
+    public void setCodigoCliente(String codigoCliente) {
+        this.codigoCliente = codigoCliente;
+    }
+    
 }

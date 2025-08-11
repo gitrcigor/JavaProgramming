@@ -13,10 +13,14 @@ public class Programa31 {
 
         //Conforme exemplo abaixo, uma classe abstrata não pode ser instanciada, ela, seus atributos e métodos servem
         //apenas como referência para ser utilizado pelas subclasses
-        Usuario usuario = new Usuario("José", "zezin@hotmail.com", 76);
 
-        usuario.imprimirDados("José", "zezin@hotmail.com", 76);
+        System.out.print("\n--- Cliente ---");
+        Cliente cliente01 = new Cliente("Jesus", "jesus@gmail.com", 30, "3537");
+        cliente01.imprimirDados();
 
+        System.out.print("\n--- Funcionário ---");
+        Funcionario funcionario01 = new Funcionario("Amaral", "amaral@gmail.com", 20, "Almoxarifado");
+        funcionario01.imprimirDados();
 
     }
 
