@@ -10,6 +10,6 @@ public abstract class Pagamento {
         this.titular = titular;
     }
 
-    public abstract int processarPagamento();
+    public abstract double processarPagamento();
 
 }
