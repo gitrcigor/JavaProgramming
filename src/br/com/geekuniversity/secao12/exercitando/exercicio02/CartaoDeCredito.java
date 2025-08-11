@@ -4,13 +4,18 @@ public class CartaoDeCredito extends Pagamento {
 
     private int quantidadeParcelas;
 
-    public CartaoDeCredito(int valor, String titular){
+    public CartaoDeCredito(int valor, String titular, int quantidadeParcelas){
         super(valor, titular);
         this.quantidadeParcelas = quantidadeParcelas;
     }
 
     @Override
-    public int processarPagamento(){
-        return valor / quantidadeParcelas;
+    public double processarPagamento(){
+        return this.valor / this.quantidadeParcelas;
     }
+
+    public int getQuantidadeParcelas (){
+        return quantidadeParcelas;
+    }
+
 }

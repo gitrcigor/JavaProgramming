@@ -10,6 +10,21 @@ public class ProgramaPrincipalParaClassePagamento {
 
     public static void main(String[] args) {
 
+        System.out.print("\n--- Transferência ---");
+        TransferenciaBancaria transferencia01 = new TransferenciaBancaria(100, "Messias J.");
+        System.out.print("\nValor final com desconto de 5%: R$" + transferencia01.processarPagamento());
+        System.out.print("\n");
+
+        System.out.print("\n--- Cartão de Crédito ---");
+        CartaoDeCredito cartao01 = new CartaoDeCredito(500, "Igor R.", 3);
+        System.out.print("\nValor da compra de R$" + cartao01.valor + " dividido em " + cartao01.getQuantidadeParcelas() + " prestações: " + cartao01.processarPagamento());
+        System.out.print("\n");
+
+        System.out.print("\n--- Boleto Bancário ---");
+        BoletoBancario boleto01 = new BoletoBancario(350, "Camila Lima");
+        System.out.print("\nBoleto processado com juros de 10%" + boleto01.getJuros() + " tem valor final de: " + boleto01.processarPagamento());
+        System.out.print("\n");
+
     }
 
 }

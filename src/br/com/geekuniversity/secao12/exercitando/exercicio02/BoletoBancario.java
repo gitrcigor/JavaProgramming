@@ -2,19 +2,24 @@ package src.br.com.geekuniversity.secao12.exercitando.exercicio02;
 
 public class BoletoBancario extends Pagamento {
 
-    private int vencimento;
+    private double juros = 1.1;
 
     public BoletoBancario(int valor, String titular){
         super(valor, titular);
-        this.vencimento = vencimento;
+        this.juros = juros;
     }
 
-    public int getVencimento(int vencimento){
+    public double getVencimento(int vencimento){
         return vencimento;
     }
 
     @Override
-    public int processarPagamento(){
+    public double processarPagamento(){
+        return this.valor * this.juros;
+    }
+
+    public double getJuros(){
+        return juros;
     }
 
 }
