@@ -10,8 +10,19 @@ public class Funcionario extends Usuario {
     }
 
     @Override
-    public void imprimirDados(String nome, String email, int idade) {
-
+    public void imprimirDados() {
+        System.out.print("\nFuncionário Nome: " + this.getNome());
+        System.out.print("\nFuncionário Email: " + this.getEmail());
+        System.out.print("\nFuncionário Idade: " + this.getIdade());
+        System.out.print("\nFuncionário Cargo: " + this.getCargo());
+        System.out.print("\n");
     }
 
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
 }
