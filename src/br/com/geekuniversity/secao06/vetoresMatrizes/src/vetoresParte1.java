@@ -1,6 +1,8 @@
 package src.br.com.geekuniversity.secao06.vetoresMatrizes.src;
 // Arrays (vetores uni-dimensionais)
+//Seção 06 - Vetores e Matrizes
 //
+
 // Vetor[indice]
 // numeros[0] = 1;       //primeiro elemento
 //
