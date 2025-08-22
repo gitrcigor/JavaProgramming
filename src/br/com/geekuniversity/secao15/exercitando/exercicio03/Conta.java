@@ -1,4 +1,7 @@
 package src.br.com.geekuniversity.secao15.exercitando.exercicio03;
+//Exercício sobre tratamento de erros - Exercício 03
+//Obtido em: https://docentes.ifrn.edu.br/nickersonferreira/disciplinas/programacao-estruturada-e-orientada-a-objetos/lista-de-exercicios-excecoes/view
+//Ler o enunciado e efetuar o que se pede.
 
 public class Conta {
 
