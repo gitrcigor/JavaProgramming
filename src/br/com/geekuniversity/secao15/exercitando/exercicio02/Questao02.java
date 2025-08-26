@@ -12,30 +12,25 @@ public class Questao02 {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Eu sei dividir!");
-        System.out.println("Informe o primeiro número: ");
+        double resultado = 0;
+        boolean valido = false;
+
+        System.out.print("\nEu sei dividir!");
+        System.out.print("\nInforme o primeiro número: ");
         int num1 = teclado.nextInt();
 
-        System.out.println("Informe o segundo número: ");
-        int num2 = teclado.nextInt();
-
-
-        double resultado = (num1 / num2);
-
-        try {
-            if (num2 == 0) {
-                throw new ArithmeticException("Divisão por zero não é permitida.");
+        while (!valido) {
+            System.out.print("\nInforme o segundo número: ");
+            int num2 = teclado.nextInt();
+            try {
+                resultado = num1 / num2;
+                valido = true;
+            } catch (ArithmeticException e) {
+                System.out.print("\nImpossível dividir por zero!");
             }
-        } catch (ArithmeticException e) {
-            System.out.println("Não é possível efetuar divisão por zero!");
-        } finally {
-            System.out.println("Informe o segundo número: ");
-            num2 = teclado.nextInt();
 
         }
-
-        System.out.println("O resultado da divisão é: " + resultado);
-
+        System.out.print("\nResultado da divisão é: " + resultado);
 
     }
 
