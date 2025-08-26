@@ -32,8 +32,9 @@ public class Aluno extends Pessoa {
 
 
     //Polimorfismo - Aula 62     || Overriding
+    @Override
     public String toString (){
-        return super.toString() + " | R.A.: " + this.ra;
+        return super.toString() + " | R.A.: " + this.ra;      // >> super.toString() chama o método toString da superclasse (Pessoa) e adiciona a informação do RA. Ou seja, exibe o email e o RA, cada um vindo de uma classe diferente e toString diferente.
     }
 
 }

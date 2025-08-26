@@ -22,13 +22,8 @@ public class Zelador extends Pessoa {
 
 
     //Polimorfismo - Aula 62   || Overriding
-//    @Override
-//    public String toString() {
-//        return super.toString() + " | Profissão: " + this.profissao;
-//    }
-
     public String toString() {
-        return super.toString() + " | Profissão: " + profissao;
+        return " | Profissão: " + this.profissao;
     }
 
 }

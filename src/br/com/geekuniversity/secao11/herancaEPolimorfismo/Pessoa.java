@@ -50,13 +50,6 @@ public class Pessoa {
     }
 
 
-
-    //Polimorfismo - Aula 62    || Overriding
-    public String toString(){
-        return "Nome: " + this.nome + " | Ano Nascimento: " + this.anoNascimento;
-    }
-
-
     //Aula 63 Sobrecarga de método || Overloading
     public Pessoa(){}
 
@@ -70,6 +63,12 @@ public class Pessoa {
 
     public void mensagem(String msg, int num){
         System.out.println(msg + num);
+    }
+
+    //Polimorfismo - Aula 62    || Overriding
+    //toString serve para o endereço de memória de um objeto ser representado por uma String ou ainda funciona como um método de impressão
+    public String toString(){
+        return " | Email: " + this.email;
     }
 
 }

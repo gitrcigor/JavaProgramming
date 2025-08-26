@@ -23,13 +23,10 @@ public class Professor extends Pessoa {
         return this.matricula;
     }
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
     //Polimorfismo - Aula 62   || Overriding
+    //Aqui o método toString da classe funciona como método de impressão
     public String toString(){
-        return super.toString() + " | Matricula: " + this.matricula;
+        return " | Matricula: " + this.matricula;
     }
 
 }
