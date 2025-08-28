@@ -7,9 +7,18 @@ public class Retangulo extends Figura {
 
     }
 
+    //A anotação @Override serve para indicar ao compilador que um método de uma classe filha tem a intenção de sobrescrever um método da super classe.
     @Override
     public int calcularArea() {
         return this.getBase() * this.getAltura();
 
     }
+
+    @Override
+    public int calcularPerimetro(){
+        return this.getBase() * 2 + this.getAltura() * 2;
+    }
+
+
+
 }
