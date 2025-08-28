@@ -10,14 +10,17 @@ public abstract class Figura {
         this.altura = altura;
     }
 
+    //Aqui o método calcularArea é instanciado porém não tem implementação, quem faz a implementação são as classes filhas, ou seja, quem herda essa classe abstrata.
     public abstract int calcularArea();
 
+    public abstract int calcularPerimetro();
 
-    public int getBase(){
+
+    public int getBase() {
         return base;
     }
 
-    public void setBase(int base){
+    public void setBase(int base) {
         this.base = base;
     }
 
