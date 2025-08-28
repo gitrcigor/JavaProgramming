@@ -20,10 +20,6 @@ public abstract class Usuario {
     public abstract void imprimirDados();
 
 
-
-
-
-
     public String getNome() {
         return nome;
     }
